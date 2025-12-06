@@ -1,214 +1,279 @@
-# NeetCode 150 — LeetCode Problem Numbers
-
-A complete mapping of all NeetCode 150 problems to their corresponding LeetCode problem numbers.
+# NeetCode 150
 
 ---
 
-## 📁 Arrays & Hashing
-| Problem | # | Title |
-|--------|---|-------|
-| Contains Duplicate | 217 | Contains Duplicate |
-| Valid Anagram | 242 | Valid Anagram |
-| Two Sum | 1 | Two Sum |
-| Group Anagrams | 49 | Group Anagrams |
-| Top K Frequent Elements | 347 | Top K Frequent Elements |
-| Product of Array Except Self | 238 | Product of Array Except Self |
-| Valid Sudoku | 36 | Valid Sudoku |
-| Encode and Decode Strings | 271 | Encode and Decode Strings |
-| Longest Consecutive Sequence | 128 | Longest Consecutive Sequence |
+## 📁 1. Arrays & Hashing (9)
+
+| S.No | LC # | Problem                         | Difficulty | Skill / Topic                 | Most Asked In              |
+|------|------|---------------------------------|-----------|------------------------------|----------------------------|
+| 1    | 217  | Contains Duplicate              | Easy      | Arrays, Hashing              | Amazon, Google             |
+| 2    | 242  | Valid Anagram                   | Easy      | Strings, HashMap             | Amazon, Bloomberg          |
+| 3    | 1    | Two Sum                         | Easy      | Arrays, HashMap              | Meta, Google, Amazon       |
+| 4    | 49   | Group Anagrams                  | Medium    | HashMap, Sorting             | Google, Amazon             |
+| 5    | 347  | Top K Frequent Elements         | Medium    | Heap, HashMap                | Amazon, Bloomberg          |
+| 6    | 238  | Product of Array Except Self    | Medium    | Prefix/Suffix, Arrays        | Google, Meta               |
+| 7    | 36   | Valid Sudoku                    | Medium    | HashSet, Matrix              | Google, Microsoft          |
+| 8    | 271  | Encode and Decode Strings       | Medium    | String Encoding, Design      | Meta, Dropbox              |
+| 9    | 128  | Longest Consecutive Sequence    | Medium    | HashSet                      | Google, Amazon             |
 
 ---
 
-## 📁 Two Pointers
-| Problem | # | Title |
-|--------|---|-------|
-| Valid Palindrome | 125 | Valid Palindrome |
-| Two Sum II | 167 | Two Sum II - Input Array Is Sorted |
-| 3Sum | 15 | 3Sum |
-| Container With Most Water | 11 | Container With Most Water |
-| Trapping Rain Water | 42 | Trapping Rain Water |
+## 📁 2. Two Pointers (5)
+
+| S.No | LC # | Problem                         | Difficulty | Skill / Topic          | Most Asked In        |
+|------|------|---------------------------------|-----------|------------------------|----------------------|
+| 10   | 125  | Valid Palindrome                | Easy      | Two Pointers, String   | Amazon, Bloomberg    |
+| 11   | 167  | Two Sum II                      | Medium    | Two Pointers           | Google, Amazon       |
+| 12   | 15   | 3Sum                            | Medium    | Sorting, Two Pointers  | Google, Meta         |
+| 13   | 11   | Container With Most Water       | Medium    | Two Pointers           | Google, Amazon       |
+| 14   | 42   | Trapping Rain Water             | Hard      | Two Pointers, Stack    | Meta, Google         |
 
 ---
 
-## 📁 Sliding Window
-| Problem | # | Title |
-|--------|---|-------|
-| Best Time to Buy and Sell Stock | 121 | Best Time to Buy and Sell Stock |
-| Longest Substring Without Repeating Characters | 3 | Longest Substring Without Repeating Characters |
-| Longest Repeating Character Replacement | 424 | Longest Repeating Character Replacement |
-| Permutation in String | 567 | Permutation in String |
-| Minimum Window Substring | 76 | Minimum Window Substring |
-| Sliding Window Maximum | 239 | Sliding Window Maximum |
+## 📁 3. Sliding Window (6)
+
+| S.No | LC # | Problem                                    | Difficulty | Skill / Topic            | Most Asked In        |
+|------|------|--------------------------------------------|-----------|--------------------------|----------------------|
+| 15   | 121  | Best Time to Buy and Sell Stock            | Easy      | Sliding Window           | Amazon, Bloomberg    |
+| 16   | 3    | Longest Substring Without Repeating Chars  | Medium    | HashSet, Sliding Window  | Google, Meta         |
+| 17   | 424  | Longest Repeating Character Replacement    | Medium    | Sliding Window           | Amazon, Microsoft    |
+| 18   | 567  | Permutation in String                      | Medium    | Sliding Window, Counting | Amazon               |
+| 19   | 76   | Minimum Window Substring                   | Hard      | Sliding Window, HashMap  | Google, Meta         |
+| 20   | 239  | Sliding Window Maximum                     | Hard      | Deque, Sliding Window    | Amazon, Bloomberg    |
 
 ---
 
-## 📁 Stack
-| Problem | # | Title |
-|--------|---|-------|
-| Valid Parentheses | 20 | Valid Parentheses |
-| Min Stack | 155 | Min Stack |
-| Evaluate Reverse Polish Notation | 150 | Evaluate Reverse Polish Notation |
-| Generate Parentheses | 22 | Generate Parentheses |
-| Daily Temperatures | 739 | Daily Temperatures |
-| Car Fleet | 853 | Car Fleet |
-| Largest Rectangle in Histogram | 84 | Largest Rectangle in Histogram |
+## 📁 4. Stack (7)
+
+| S.No | LC # | Problem                              | Difficulty | Skill / Topic        | Most Asked In        |
+|------|------|--------------------------------------|-----------|----------------------|----------------------|
+| 21   | 20   | Valid Parentheses                    | Easy      | Stack                | Amazon, Google       |
+| 22   | 155  | Min Stack                            | Medium    | Stack, Design        | Amazon, Microsoft    |
+| 23   | 150  | Evaluate Reverse Polish Notation     | Medium    | Stack, Expression    | Google, Bloomberg    |
+| 24   | 22   | Generate Parentheses                 | Medium    | Backtracking, Stack  | Meta, Google         |
+| 25   | 739  | Daily Temperatures                   | Medium    | Monotonic Stack      | Amazon, Google       |
+| 26   | 853  | Car Fleet                            | Medium    | Stack, Sorting       | Google, Amazon       |
+| 27   | 84   | Largest Rectangle in Histogram       | Hard      | Monotonic Stack      | Google, Meta         |
 
 ---
 
-## 📁 Binary Search
-| Problem | # | Title |
-|--------|---|-------|
-| Binary Search | 704 | Binary Search |
-| Search a 2D Matrix | 74 | Search a 2D Matrix |
-| Koko Eating Bananas | 875 | Koko Eating Bananas |
-| Find Minimum in Rotated Sorted Array | 153 | Find Minimum in Rotated Sorted Array |
-| Search in Rotated Sorted Array | 33 | Search in Rotated Sorted Array |
-| Time Based Key Value Store | 981 | Time Based Key-Value Store |
-| Median of Two Sorted Arrays | 4 | Median of Two Sorted Arrays |
+## 📁 5. Binary Search (7)
+
+| S.No | LC # | Problem                              | Difficulty | Skill / Topic           | Most Asked In        |
+|------|------|--------------------------------------|-----------|-------------------------|----------------------|
+| 28   | 704  | Binary Search                        | Easy      | Binary Search           | Amazon               |
+| 29   | 74   | Search a 2D Matrix                   | Medium    | Binary Search, Matrix   | Google, Amazon       |
+| 30   | 875  | Koko Eating Bananas                  | Medium    | Binary Search on Answer | Google               |
+| 31   | 33   | Search in Rotated Sorted Array       | Medium    | Binary Search           | Google, Meta         |
+| 32   | 153  | Find Minimum in Rotated Sorted Array | Medium    | Binary Search           | Amazon               |
+| 33   | 981  | Time Based Key-Value Store           | Medium    | HashMap, Binary Search  | Meta, Google         |
+| 34   | 4    | Median of Two Sorted Arrays          | Hard      | Binary Search           | Google, Meta         |
 
 ---
 
-## 📁 Linked List
-| Problem | # | Title |
-|--------|---|-------|
-| Reverse Linked List | 206 | Reverse Linked List |
-| Merge Two Sorted Lists | 21 | Merge Two Sorted Lists |
-| Reorder List | 143 | Reorder List |
-| Remove Nth Node From End of List | 19 | Remove Nth Node From End of List |
-| Copy List with Random Pointer | 138 | Copy List with Random Pointer |
-| Add Two Numbers | 2 | Add Two Numbers |
-| Linked List Cycle | 141 | Linked List Cycle |
-| Find the Duplicate Number | 287 | Find the Duplicate Number |
-| LRU Cache | 146 | LRU Cache |
+## 📁 6. Linked List (11)
+
+| S.No | LC # | Problem                               | Difficulty | Skill / Topic                  | Most Asked In        |
+|------|------|---------------------------------------|-----------|--------------------------------|----------------------|
+| 35   | 206  | Reverse Linked List                   | Easy      | Linked List                    | Amazon               |
+| 36   | 21   | Merge Two Sorted Lists                | Easy      | Linked List                    | Google               |
+| 37   | 143  | Reorder List                          | Medium    | Linked List, Re-linking        | Google               |
+| 38   | 19   | Remove Nth Node From End of List      | Medium    | Two Pointers, Linked List      | Amazon               |
+| 39   | 138  | Copy List with Random Pointer         | Medium    | Linked List, HashMap           | Meta, Amazon         |
+| 40   | 2    | Add Two Numbers                       | Medium    | Linked List, Math              | Google, Amazon       |
+| 41   | 141  | Linked List Cycle                     | Easy      | Fast/Slow Pointers             | Amazon               |
+| 42   | 287  | Find the Duplicate Number             | Medium    | Cycle Detection (Floyd)        | Google               |
+| 43   | 146  | LRU Cache                             | Medium    | Design, HashMap + DLL          | Google, Amazon       |
+| 44   | 23   | Merge k Sorted Lists                  | Hard      | Heap, Linked List              | Google, Meta         |
+| 45   | 25   | Reverse Nodes in k-Group              | Hard      | Linked List, Recursion         | Google               |
 
 ---
 
-## 📁 Trees
-| Problem | # | Title |
-|--------|---|-------|
-| Invert Binary Tree | 226 | Invert Binary Tree |
-| Maximum Depth of Binary Tree | 104 | Maximum Depth of Binary Tree |
-| Diameter of Binary Tree | 543 | Diameter of Binary Tree |
-| Balanced Binary Tree | 110 | Balanced Binary Tree |
-| Same Tree | 100 | Same Tree |
-| Subtree of Another Tree | 572 | Subtree of Another Tree |
-| Lowest Common Ancestor of a BST | 235 | Lowest Common Ancestor of a BST |
-| Level Order Traversal | 102 | Binary Tree Level Order Traversal |
-| Right Side View | 199 | Binary Tree Right Side View |
-| Count Good Nodes | 1448 | Count Good Nodes in Binary Tree |
-| Validate BST | 98 | Validate Binary Search Tree |
-| Kth Smallest in BST | 230 | Kth Smallest Element in a BST |
-| Construct BT from Preorder and Inorder | 105 | Construct Binary Tree from Preorder and Inorder Traversal |
-| Binary Tree Maximum Path Sum | 124 | Binary Tree Maximum Path Sum |
-| Serialize and Deserialize Binary Tree | 297 | Serialize and Deserialize Binary Tree |
+## 📁 7. Trees (15)
+
+| S.No | LC # | Problem                                         | Difficulty | Skill / Topic              | Most Asked In        |
+|------|------|-------------------------------------------------|-----------|----------------------------|----------------------|
+| 46   | 226  | Invert Binary Tree                              | Easy      | DFS, Tree                  | Google               |
+| 47   | 104  | Maximum Depth of Binary Tree                    | Easy      | DFS                        | Amazon               |
+| 48   | 543  | Diameter of Binary Tree                         | Easy      | DFS                        | Google               |
+| 49   | 110  | Balanced Binary Tree                            | Easy      | DFS                        | Amazon               |
+| 50   | 100  | Same Tree                                       | Easy      | DFS                        | Microsoft            |
+| 51   | 572  | Subtree of Another Tree                         | Easy      | DFS                        | Amazon               |
+| 52   | 235  | Lowest Common Ancestor of a BST                 | Medium    | BST, DFS                   | Google               |
+| 53   | 102  | Binary Tree Level Order Traversal               | Medium    | BFS                        | Amazon               |
+| 54   | 199  | Binary Tree Right Side View                     | Medium    | BFS/DFS                    | Amazon, Google       |
+| 55   | 1448 | Count Good Nodes in Binary Tree                 | Medium    | DFS                        | Google               |
+| 56   | 98   | Validate Binary Search Tree                     | Medium    | DFS, Inorder               | Amazon, Google       |
+| 57   | 230  | Kth Smallest Element in a BST                   | Medium    | BST, Inorder               | Google               |
+| 58   | 105  | Construct Binary Tree from Preorder & Inorder   | Medium    | DFS, Tree Construction     | Meta, Google         |
+| 59   | 124  | Binary Tree Maximum Path Sum                    | Hard      | DFS, DP on Trees           | Google, Meta         |
+| 60   | 297  | Serialize and Deserialize Binary Tree           | Hard      | Design, DFS/BFS            | Google, Meta         |
 
 ---
 
-## 📁 Tries
-| Problem | # | Title |
-|--------|---|-------|
-| Implement Trie | 208 | Implement Trie |
-| Add and Search Word | 211 | Add and Search Word |
-| Word Search II | 212 | Word Search II |
+## 📁 8. Tries (3)
+
+| S.No | LC # | Problem                                   | Difficulty | Skill / Topic | Most Asked In        |
+|------|------|-------------------------------------------|-----------|---------------|----------------------|
+| 61   | 208  | Implement Trie (Prefix Tree)              | Medium    | Trie          | Google, Amazon       |
+| 62   | 211  | Add and Search Word (Design Word Dict)    | Medium    | Trie, Backtracking | Google          |
+| 63   | 212  | Word Search II                            | Hard      | DFS + Trie    | Google, Meta         |
 
 ---
 
-## 📁 Heap / Priority Queue
-| Problem | # | Title |
-|--------|---|-------|
-| Kth Largest Element in a Stream | 703 | Kth Largest Element in a Stream |
-| Last Stone Weight | 1046 | Last Stone Weight |
-| K Closest Points to Origin | 973 | K Closest Points to Origin |
-| Task Scheduler | 621 | Task Scheduler |
-| Design Twitter | 355 | Design Twitter |
+## 📁 9. Heap / Priority Queue (7)
+
+| S.No | LC # | Problem                                   | Difficulty | Skill / Topic          | Most Asked In        |
+|------|------|-------------------------------------------|-----------|------------------------|----------------------|
+| 64   | 703  | Kth Largest Element in a Stream           | Easy      | Heap, Streaming        | Amazon               |
+| 65   | 1046 | Last Stone Weight                         | Easy      | Heap                   | Amazon               |
+| 66   | 973  | K Closest Points to Origin                | Medium    | Heap, Geometry         | Google, Uber         |
+| 67   | 215  | Kth Largest Element in an Array           | Medium    | Heap, Selection        | Amazon, Google       |
+| 68   | 621  | Task Scheduler                            | Medium    | Heap, Greedy           | Google, Amazon       |
+| 69   | 355  | Design Twitter                            | Medium    | Heap, HashMap, Design  | Twitter/X, Meta      |
+| 70   | 295  | Find Median from Data Stream              | Hard      | Two Heaps, Design      | Google, Meta         |
 
 ---
 
-## 📁 Backtracking
-| Problem | # | Title |
-|--------|---|-------|
-| Subsets | 78 | Subsets |
-| Combination Sum | 39 | Combination Sum |
-| Permutations | 46 | Permutations |
-| Subsets II | 90 | Subsets II |
-| Combination Sum II | 40 | Combination Sum II |
-| Word Search | 79 | Word Search |
-| Palindrome Partitioning | 131 | Palindrome Partitioning |
-| N-Queens | 51 | N-Queens |
+## 📁 10. Backtracking (9)
+
+| S.No | LC # | Problem                          | Difficulty | Skill / Topic   | Most Asked In        |
+|------|------|----------------------------------|-----------|-----------------|----------------------|
+| 71   | 78   | Subsets                          | Medium    | Backtracking    | Amazon               |
+| 72   | 39   | Combination Sum                  | Medium    | Backtracking    | Amazon               |
+| 73   | 46   | Permutations                     | Medium    | Backtracking    | Google               |
+| 74   | 90   | Subsets II                       | Medium    | Backtracking    | Amazon               |
+| 75   | 40   | Combination Sum II               | Medium    | Backtracking    | Google               |
+| 76   | 79   | Word Search                      | Medium    | DFS, Backtracking | Google            |
+| 77   | 131  | Palindrome Partitioning          | Medium    | Backtracking    | Google               |
+| 78   | 17   | Letter Combinations of a Phone #| Medium    | Backtracking    | Amazon               |
+| 79   | 51   | N-Queens                         | Hard      | Backtracking    | Meta                 |
 
 ---
 
-## 📁 Graphs
-| Problem | # | Title |
-|--------|---|-------|
-| Number of Islands | 200 | Number of Islands |
-| Clone Graph | 133 | Clone Graph |
-| Max Area of Island | 695 | Max Area of Island |
-| Pacific Atlantic Water Flow | 417 | Pacific Atlantic Water Flow |
-| Surrounded Regions | 130 | Surrounded Regions |
-| Rotting Oranges | 994 | Rotting Oranges |
-| Walls and Gates | 286 | Walls and Gates |
-| Course Schedule | 207 | Course Schedule |
-| Course Schedule II | 210 | Course Schedule II |
-| Redundant Connection | 684 | Redundant Connection |
-| Number of Connected Components | 323 | Number of Connected Components |
-| Graph Valid Tree | 261 | Graph Valid Tree |
-| Word Ladder | 127 | Word Ladder |
+## 📁 11. Graphs (13)
+
+| S.No | LC # | Problem                              | Difficulty | Skill / Topic        | Most Asked In        |
+|------|------|--------------------------------------|-----------|----------------------|----------------------|
+| 80   | 200  | Number of Islands                    | Medium    | DFS/BFS, Grid        | Google, Amazon       |
+| 81   | 133  | Clone Graph                          | Medium    | DFS/BFS, Graph       | Meta, Google         |
+| 82   | 695  | Max Area of Island                   | Medium    | DFS, Grid            | Microsoft, Amazon    |
+| 83   | 417  | Pacific Atlantic Water Flow          | Medium    | DFS/BFS              | Google               |
+| 84   | 130  | Surrounded Regions                   | Medium    | DFS/BFS              | Amazon               |
+| 85   | 994  | Rotting Oranges                      | Medium    | BFS, Grid            | Amazon               |
+| 86   | 286  | Walls and Gates                      | Medium    | BFS, Grid            | Google               |
+| 87   | 207  | Course Schedule                      | Medium    | Topological Sort     | Google, Meta         |
+| 88   | 210  | Course Schedule II                   | Medium    | Topological Sort     | Google               |
+| 89   | 684  | Redundant Connection                 | Medium    | Union-Find           | Google               |
+| 90   | 323  | Number of Connected Components in UG | Medium    | Union-Find, DFS      | Google               |
+| 91   | 261  | Graph Valid Tree                     | Medium    | Union-Find, DFS      | Amazon               |
+| 92   | 127  | Word Ladder                          | Hard      | BFS                  | Google, Meta         |
 
 ---
 
-## 📁 Advanced Graphs
-| Problem | # | Title |
-|--------|---|-------|
-| Reconstruct Itinerary | 332 | Reconstruct Itinerary |
-| Min Cost to Connect All Points | 1584 | Min Cost to Connect All Points |
-| Network Delay Time | 743 | Network Delay Time |
-| Swim in Rising Water | 778 | Swim in Rising Water |
-| Alien Dictionary | 269 | Alien Dictionary |
+## 📁 12. Advanced Graphs (6)
+
+| S.No | LC # | Problem                             | Difficulty | Skill / Topic          | Most Asked In        |
+|------|------|-------------------------------------|-----------|------------------------|----------------------|
+| 93   | 332  | Reconstruct Itinerary               | Hard      | Hierholzer, DFS        | Google               |
+| 94   | 1584 | Min Cost to Connect All Points      | Medium    | MST (Kruskal/Prim)     | Google               |
+| 95   | 743  | Network Delay Time                  | Medium    | Dijkstra, Graph        | Amazon               |
+| 96   | 778  | Swim in Rising Water                | Hard      | Priority Queue, BFS    | Google               |
+| 97   | 269  | Alien Dictionary                    | Hard      | Topological Sort       | Google               |
+| 98   | 787  | Cheapest Flights Within K Stops     | Medium    | BFS/Dijkstra           | Amazon               |
 
 ---
 
-## 📁 Dynamic Programming
-| Problem | # | Title |
-|--------|---|-------|
-| Climbing Stairs | 70 | Climbing Stairs |
-| House Robber | 198 | House Robber |
-| House Robber II | 213 | House Robber II |
-| Longest Palindromic Substring | 5 | Longest Palindromic Substring |
-| Palindromic Substrings | 647 | Palindromic Substrings |
-| Decode Ways | 91 | Decode Ways |
-| Coin Change | 322 | Coin Change |
-| Maximum Product Subarray | 152 | Maximum Product Subarray |
-| Word Break | 139 | Word Break |
-| Longest Increasing Subsequence | 300 | Longest Increasing Subsequence |
-| Partition Equal Subset Sum | 416 | Partition Equal Subset Sum |
-| Unique Paths | 62 | Unique Paths |
-| Longest Common Subsequence | 1143 | Longest Common Subsequence |
-| Best Time to Buy and Sell Stock with Cooldown | 309 | Stock with Cooldown |
-| Burst Balloons | 312 | Burst Balloons |
-| Regular Expression Matching | 10 | Regular Expression Matching |
+## 📁 13. 1-D Dynamic Programming (12)
+
+| S.No | LC # | Problem                          | Difficulty | Skill / Topic   | Most Asked In        |
+|------|------|----------------------------------|-----------|-----------------|----------------------|
+| 99   | 70   | Climbing Stairs                 | Easy      | DP, Fibonacci   | Amazon               |
+| 100  | 746  | Min Cost Climbing Stairs        | Easy      | DP              | Google               |
+| 101  | 198  | House Robber                    | Medium    | DP              | Amazon               |
+| 102  | 213  | House Robber II                 | Medium    | DP, Circular    | Amazon               |
+| 103  | 5    | Longest Palindromic Substring   | Medium    | DP / Expand     | Google               |
+| 104  | 647  | Palindromic Substrings          | Medium    | DP / Expand     | Google               |
+| 105  | 91   | Decode Ways                     | Medium    | DP, String      | Amazon               |
+| 106  | 322  | Coin Change                     | Medium    | DP, Unbounded   | Google               |
+| 107  | 152  | Maximum Product Subarray        | Medium    | DP, Kadane Var. | Amazon               |
+| 108  | 139  | Word Break                      | Medium    | DP, Trie/String | Google               |
+| 109  | 300  | Longest Increasing Subsequence  | Medium    | DP, BinarySearch| Amazon, Google       |
+| 110  | 416  | Partition Equal Subset Sum      | Medium    | DP, Knapsack    | Amazon               |
 
 ---
 
-## 📁 Greedy
-| Problem | # | Title |
-|--------|---|-------|
-| Assign Cookies | 455 | Assign Cookies |
-| Gas Station | 134 | Gas Station |
-| Hand of Straights | 846 | Hand of Straights |
-| Merge Triplets | 1899 | Merge Triplets to Form Target Triplet |
-| Partition Labels | 763 | Partition Labels |
-| Valid Parenthesis String | 678 | Valid Parenthesis String |
+## 📁 14. 2-D Dynamic Programming (11)
+
+| S.No | LC # | Problem                               | Difficulty | Skill / Topic   | Most Asked In        |
+|------|------|---------------------------------------|-----------|-----------------|----------------------|
+| 111  | 62   | Unique Paths                          | Medium    | Grid DP         | Google               |
+| 112  | 1143 | Longest Common Subsequence            | Medium    | DP, Strings     | Meta, Google         |
+| 113  | 309  | Best Time to Buy/Sell Stock with Cooldown | Medium | DP, Stocks    | Google               |
+| 114  | 518  | Coin Change II                        | Medium    | DP, Knapsack    | Amazon               |
+| 115  | 494  | Target Sum                            | Medium    | DP, Subset Sum  | Amazon               |
+| 116  | 97   | Interleaving String                   | Medium    | DP, Strings     | Google               |
+| 117  | 329  | Longest Increasing Path in a Matrix   | Hard      | DFS + DP        | Google               |
+| 118  | 115  | Distinct Subsequences                 | Hard      | DP, Strings     | Google               |
+| 119  | 72   | Edit Distance                         | Hard      | DP, Strings     | Google, Meta         |
+| 120  | 312  | Burst Balloons                        | Hard      | Interval DP     | Google               |
+| 121  | 10   | Regular Expression Matching           | Hard      | DP, Regex       | Google               |
 
 ---
 
-## 📁 Intervals
-| Problem | # | Title |
-|--------|---|-------|
-| Insert Interval | 57 | Insert Interval |
-| Merge Intervals | 56 | Merge Intervals |
-| Non-overlapping Intervals | 435 | Non-overlapping Intervals |
-| Meeting Rooms | 252 | Meeting Rooms |
-| Meeting Rooms II | 253 | Meeting Rooms II |
+## 📁 15. Greedy (8)
+
+| S.No | LC # | Problem                     | Difficulty | Skill / Topic | Most Asked In        |
+|------|------|-----------------------------|-----------|---------------|----------------------|
+| 122  | 53   | Maximum Subarray            | Medium    | Kadane, Greedy| Amazon               |
+| 123  | 55   | Jump Game                   | Medium    | Greedy        | Google               |
+| 124  | 45   | Jump Game II                | Medium    | Greedy        | Amazon               |
+| 125  | 134  | Gas Station                 | Medium    | Greedy        | Google               |
+| 126  | 846  | Hand of Straights           | Medium    | Greedy, Hash  | Amazon               |
+| 127  | 1899 | Merge Triplets to Form Target Triplet | Medium | Greedy | Google           |
+| 128  | 763  | Partition Labels            | Medium    | Greedy        | Amazon               |
+| 129  | 678  | Valid Parenthesis String    | Medium    | Greedy        | Google               |
+
+---
+
+## 📁 16. Intervals (6)
+
+| S.No | LC # | Problem                               | Difficulty | Skill / Topic      | Most Asked In        |
+|------|------|---------------------------------------|-----------|--------------------|----------------------|
+| 130  | 57   | Insert Interval                       | Medium    | Intervals, Merge   | Google               |
+| 131  | 56   | Merge Intervals                       | Medium    | Intervals, Sorting | Amazon               |
+| 132  | 435  | Non-overlapping Intervals             | Medium    | Intervals, Greedy  | Google               |
+| 133  | 252  | Meeting Rooms                         | Easy      | Intervals          | Meta, Google         |
+| 134  | 253  | Meeting Rooms II                      | Medium    | Heap + Intervals   | Google               |
+| 135  | 1851 | Minimum Interval to Include Each Query| Hard      | Heap, Intervals    | Google               |
+
+---
+
+## 📁 17. Math & Geometry (8)
+
+| S.No | LC # | Problem               | Difficulty | Skill / Topic      | Most Asked In        |
+|------|------|-----------------------|-----------|--------------------|----------------------|
+| 136  | 48   | Rotate Image          | Medium    | Matrix, Rotation   | Google, Amazon       |
+| 137  | 54   | Spiral Matrix         | Medium    | Matrix Traversal   | Google               |
+| 138  | 73   | Set Matrix Zeroes     | Medium    | Matrix, In-place   | Amazon, Microsoft    |
+| 139  | 202  | Happy Number          | Easy      | Math, HashSet      | Google               |
+| 140  | 66   | Plus One              | Easy      | Math, Array        | Amazon               |
+| 141  | 50   | Pow(x, n)             | Medium    | Fast Power, Recurr.| Google, Amazon       |
+| 142  | 43   | Multiply Strings      | Medium    | Big Integer, String| Amazon               |
+| 143  | 2013 | Detect Squares        | Medium    | HashMap, Geometry  | Google               |
+
+---
+
+## 📁 18. Bit Manipulation (7)
+
+| S.No | LC # | Problem              | Difficulty | Skill / Topic      | Most Asked In        |
+|------|------|----------------------|-----------|--------------------|----------------------|
+| 144  | 136  | Single Number        | Easy      | XOR, Bit Manip     | Amazon, Google       |
+| 145  | 191  | Number of 1 Bits     | Easy      | Bit Count          | Google               |
+| 146  | 338  | Counting Bits        | Easy      | DP, Bit Manip      | Microsoft, Google    |
+| 147  | 190  | Reverse Bits         | Easy      | Bit Manip          | Google               |
+| 148  | 268  | Missing Number       | Easy      | XOR / Math         | Amazon               |
+| 149  | 371  | Sum of Two Integers  | Medium    | Bitwise Add        | Google               |
+| 150  | 7    | Reverse Integer      | Medium    | Math, Overflow     | Amazon, Google       |
 
 ---
